@@ -44,6 +44,9 @@ First add this to /etc/shells. (or check with which fish the correct path)
 Then execute:
 ```
 chsh -s /opt/homebrew/bin/fish
+
+set -Ua fish_user_paths /opt/homebrew/bin
+set -Ua fish_user_paths /opt/homebrew/sbin
 ```
 
 3) Install fisher plugin manager (https://github.com/jorgebucaran/fisher)
